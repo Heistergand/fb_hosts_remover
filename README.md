@@ -12,7 +12,6 @@ auch mal eben locker zwei Stunden oder länger, aber dafür unbeaufsichtigt und 
 Zeit mit etwas schönerem verbringen. Zum Beipiel damit, diesen Text für euch zu schreiben.
 
 Die abgebrochenen versuche findet ihr in den ordnern old und tui-projekt. 
-Deswegen heißt das Repo auch noch so.
 
 ## KI Disclaimer
 Natürlich habe ich, obwohl ich finde, dass ich ganz passabel programmieren kann, der 
