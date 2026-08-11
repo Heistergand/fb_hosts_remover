@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fritzbox-passive-tui"
+version = "0.1.0"
+description = "Keyboard-driven TUI to inspect and reset passive FRITZ!Box LAN devices."
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31",
+  "textual>=0.50",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[project.scripts]
+fritzbox-passive-tui = "fritzbox_passive_tui.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

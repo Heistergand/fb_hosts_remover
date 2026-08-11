@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+fritz_hosts_cache.json
+inactive.csv
+fritz_hosts_cache.json.tmp
+delete_inactive_hosts.log
